@@ -1,5 +1,6 @@
-function Card() {
-  
+function Card(props) {
+  const arr = props.data;
+  const listItems = bb;
     return ( 
       <div class="col-sm-4">
         <div class="card text-center">
