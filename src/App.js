@@ -5,7 +5,7 @@ import Card from './components/Card';
 import Form from './components/Form';
 import ContentManager from './components/ContentManager';
 
-const text = ["blablablablablablablabla", "blablablablablablablabla", "blablablablablablablabla"];
+const text = ["First thing to do", "Second thing to do", "Third thing to do"];
 
 function App() {
   return (

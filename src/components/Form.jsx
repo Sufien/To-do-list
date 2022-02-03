@@ -13,7 +13,7 @@ function Form(props) {
             props.handleSubmit(content);
             setContent("");
         }
-        e.preventDefatl();
+        e.preventDefault();
     }
 
 
@@ -23,12 +23,12 @@ function Form(props) {
             <div class="container">
                 <div class="row justify-content-center">
                         <div class="col">
-                            <label for="exampleFormControlTextarea1" class="form-label">Notes</label>
+                            <label for="exampleFormControlTextarea1" class="form-label">What do u need to do?</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your content" onChange={handleChange}></textarea>
                         </div>
                     </div>
                 <div class="row-12 justify-content-center">
-                    <div class="col offset-6">
+                    <div class="col offset-10">
                         <button type="submit" class="btn btn-dark">To do</button>
                     </div>
                     
