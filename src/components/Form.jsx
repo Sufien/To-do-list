@@ -28,7 +28,7 @@ function Form(props) {
                         </div>
                     </div>
                 <div class="row-12 justify-content-center">
-                    <div class="col offset-10">
+                    <div class="col">
                         <button type="submit" class="btn btn-dark">To do</button>
                     </div>
                     
