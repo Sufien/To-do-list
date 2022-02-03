@@ -1,7 +1,7 @@
 function Card(props) {
   const arr = props.data;
   const listItems = arr.map((content) =>
-    <div class="col-sm-4">
+    <div class="col">
       <div class="card text-center">
         <div class="card-header">
           TITLE
@@ -9,7 +9,7 @@ function Card(props) {
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">{content}</p>
-          <a href="#" class="btn btn-primary">Done</a>
+          <button type="button" class="btn btn-dark">Done</button>
         </div>
         <div class="card-footer text-muted">
           2 days ago
@@ -18,7 +18,9 @@ function Card(props) {
     </div>
   );
     return (
-      <div>{listItems}</div>
+      <div class="container">
+        <div class="row justify-content-center">{listItems}</div>
+      </div>
      );
 }
 

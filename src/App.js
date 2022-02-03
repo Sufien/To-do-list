@@ -3,17 +3,17 @@ import './App.css';
 import TextBar from './components/textBar';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
+import Form from './components/Form';
 
-const text = ["My first content", "Second one", "Third one"];
+const text = ["blablablablablablablabla", "blablablablablablablabla", "blablablablablablablabla"];
 
 function App() {
   return (
-    <div>
+    
+    <div class="container">
       <Navbar />
-      <div class="row">
-        <Card data={text}/>
-      </div>
-      
+      <Form />
+      <Card data={text}/>
     </div>
   );
 }
