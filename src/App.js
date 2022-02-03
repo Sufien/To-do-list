@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import TextBar from './components/textBar';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Form from './components/Form';
+import ContentManager from './components/ContentManager';
 
 const text = ["blablablablablablablabla", "blablablablablablablabla", "blablablablablablablabla"];
 
@@ -12,8 +12,7 @@ function App() {
     
     <div class="container">
       <Navbar />
-      <Form />
-      <Card data={text}/>
+      <ContentManager data={text}/>
     </div>
   );
 }
