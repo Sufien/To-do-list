@@ -1,8 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import Card from './components/Card';
-import Form from './components/Form';
 import ContentManager from './components/ContentManager';
 
 const text = ["First thing to do", "Second thing to do", "Third thing to do"];

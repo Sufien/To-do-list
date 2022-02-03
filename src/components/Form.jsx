@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+
 
 function Form(props) {
     const [content, setContent] = useState("");
@@ -20,7 +20,7 @@ function Form(props) {
 
     return ( 
         <form onSubmit={handleSubmit}>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row justify-content-center">
                         <div class="col">
                             <label for="exampleFormControlTextarea1" class="form-label">What do u need to do?</label>
@@ -28,7 +28,7 @@ function Form(props) {
                         </div>
                     </div>
                 <div class="row-12 justify-content-center">
-                    <div class="col">
+                    <div class="col-8">
                         <button type="submit" class="btn btn-dark">To do</button>
                     </div>
                     

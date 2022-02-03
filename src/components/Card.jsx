@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 
 var today = new Date().toLocaleDateString();
 
 function Card(props) {
   const arr = props.data;
-  const [description, setDescription] = useState("");
 
 
   function handleDelete(e){
