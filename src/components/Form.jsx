@@ -9,11 +9,13 @@ function Form(props) {
     }
 
     function handleSubmit(e){
+        e.preventDefault();
         if(content !== ""){
             props.handleSubmit(content);
             setContent("");
+            e.target.reset();
         }
-        e.preventDefault();
+        
     }
 
 
