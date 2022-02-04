@@ -19,22 +19,18 @@ function Form(props) {
 
 
     return ( 
-        <form onSubmit={handleSubmit}>
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                        <div class="col">
-                            <label for="exampleFormControlTextarea1" class="form-label">What do u need to do?</label>
+                <form onSubmit={handleSubmit}>
+                    <div class="row justify-content-center gy-3">
+                        <div class="col-11">
+                            <label for="exampleFormControlTextarea1" class="form-label"><h1>To do</h1></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your content" onChange={handleChange}></textarea>
                         </div>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-dark" type="submit">To do</button>
+                            <button class="btn btn-dark" type="reset">Clear</button>
+                        </div>
                     </div>
-                <div class="row-12 justify-content-center">
-                    <div class="col-8">
-                        <button type="submit" class="btn btn-dark">To do</button>
-                    </div>
-                    
-                </div>
-            </div>
-        </form>
+                </form>
    );
 }
 

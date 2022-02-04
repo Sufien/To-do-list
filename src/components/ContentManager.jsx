@@ -21,11 +21,13 @@ function ContentManager(props) {
 
 
     return ( 
-        <div>
-            <Form handleSubmit={addContent}/>
-            <Card data={text} handleDelete={deleteContent}/>
+        <div class="container">
+            <div class="row justify-content-center gy-3">
+                <Form handleSubmit={addContent}/>
+                <Card data={text} handleDelete={deleteContent}/>
+            </div>
         </div>
-     );
+        );
 }
 
 export default ContentManager;

@@ -7,7 +7,7 @@ const text = ["First thing to do", "Second thing to do", "Third thing to do"];
 function App() {
   return (
     
-    <div class="container">
+    <div>
       <Navbar />
       <ContentManager data={text}/>
     </div>
